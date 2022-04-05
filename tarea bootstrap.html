@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+
+    <title>Bienvenido</title>
+</head>
+
+<body
+    style="background-color: honeydew; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+
+    <div class="container-fluid bg-primary py-5">
+        <div class="container text-white">
+            <h1 class="display-3">Bienvenidos</h1>
+            <p class="lead">Bienvenidos a la inscripcion de Cursado</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="" class="row g-3">
+            <h3>Formulario de Inscripción: </h3>
+            <div class="form-row">
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="username">Nombre de usuario</label><br>
+                    <input type="text" class="form-control" placeholder="Escriba su usuario" name="nombre-usuario"> <br>
+                </div>
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="name">Nombre Completo:</label> <br>
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre completo"
+                        name="nombre-completo"><br>
+                    <br>
+                </div>
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="genre">Seleccione su Género:</label> <br>
+                    <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+                    <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+                    <input type="radio" name="genero" id="genero" value="3" checked> Prefiere no contestar <br>
+                    <br>
+                </div>
+
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="materias">Materias a cursar: </label> <br>
+                    <input type="checkbox" name="materias" id="materias"> Programacion <br>
+                    <input type="checkbox" name="materias" id="materias"> Laboratorio de Computacion <br>
+                    <input type="checkbox" name="materias" id="materias"> Organizacion Contable <br>
+                    <input type="checkbox" name="materias" id="materias"> Inglés <br>
+                    <br>
+                </div>
+
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="fech-nac">Fecha de Nacimiento: </label><br>
+                    <input type="date" class="form-control" name="fecha-nacimiento" id="fecha-nacimiento"
+                        min="1930-12-31" max="2004-12-31"><br>
+                    <br>
+                </div>
+
+                <div class="form-group col-lg-6 col-sm-12">
+                    <label for="modalidad">Seleccione Modalidad: </label><br>
+                    <select name="modalidad" class="form-control" id="modalidad">
+                        <option value="">Seleccione...</option>
+                        <option value="1">Presencial</option>
+                        <option value="2">Virtual</option>
+                        <option value="2">Mixto</option>
+                    </select> <br>
+                    <br>
+                </div>
+
+                <div class="form-group col-lg-12 col-sm-12">
+                    <label for="presentacion">Ingrese su presentación: </label><br>
+                    <textarea style="resize:none" name="presentacion" class="form-control" id="presentacion" cols="30"
+                        rows="10" placeholder="Presentación . . ."></textarea>
+                    <br>
+                    <br>
+                    <button type="submit">Confirmar y Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

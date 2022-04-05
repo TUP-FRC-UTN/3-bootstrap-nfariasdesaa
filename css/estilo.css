@@ -1,0 +1,25 @@
+#inicio{
+    background: url('../imagenes/fondo1.jpg') center no-repeat;
+    background-size: cover;
+    height: 100%;
+    display:block;
+    text-align: left;
+    color:white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+
+}
+
+#cover-texto{
+    width: 100%;
+    
+}
+
+#cuerpo{    
+    background-size: cover;
+    height: 100%;
+    display:block;
+    color:white
+
+} 
+
